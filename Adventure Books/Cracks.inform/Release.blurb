@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "/Applications/Inform/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/crikeymiles/Dropbox/Games/My Games/Drafts/Adventure Books/Cracks.inform/Build/StatusCblorb.html"
+status "/Applications/Inform/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/crikeymiles/Dropbox/Games/My Games/inform-projects/Adventure Books/Cracks.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/crikeymiles/Dropbox/Games/My Games/Drafts/Adventure Books/Cracks.inform"
-release to "/Users/crikeymiles/Dropbox/Games/My Games/Drafts/Adventure Books/Cracks.materials/Release"
+project folder "/Users/crikeymiles/Dropbox/Games/My Games/inform-projects/Adventure Books/Cracks.inform"
+release to "/Users/crikeymiles/Dropbox/Games/My Games/inform-projects/Adventure Books/Cracks.materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "Cracks.gblorb"
-storyfile "/Users/crikeymiles/Dropbox/Games/My Games/Drafts/Adventure Books/Cracks.inform/Build/output.ulx" include
-ifiction "/Users/crikeymiles/Dropbox/Games/My Games/Drafts/Adventure Books/Cracks.inform/Metadata.iFiction" include
+storyfile "/Users/crikeymiles/Dropbox/Games/My Games/inform-projects/Adventure Books/Cracks.inform/Build/output.ulx" include
+ifiction "/Users/crikeymiles/Dropbox/Games/My Games/inform-projects/Adventure Books/Cracks.inform/Metadata.iFiction" include
 cover "/Applications/Inform/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 picture 1 "/Applications/Inform/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 

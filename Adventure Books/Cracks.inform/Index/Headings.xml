@@ -3,14 +3,14 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6M62</string>
     <key>0</key><dict>
-        <key>Filename</key><string>/Users/crikeymiles/Dropbox/Games/My Games/Drafts/Adventure Books/Cracks.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/crikeymiles/Dropbox/Games/My Games/inform-projects/Adventure Books/Cracks.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>"Cracks" by crikeymiles</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>/Users/crikeymiles/Dropbox/Games/My Games/Drafts/Adventure Books/Cracks.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/crikeymiles/Dropbox/Games/My Games/inform-projects/Adventure Books/Cracks.inform/Source/story.ni</string>
         <key>Line</key><integer>5</integer>
         <key>Title</key><string>Section 1 - The Establishing Scene</string>
         <key>Level</key><integer>5</integer>

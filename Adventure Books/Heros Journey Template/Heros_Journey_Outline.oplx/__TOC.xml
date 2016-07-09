@@ -7,11 +7,11 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1438</split-view-divider-position>
-      <outline x="0" y="672" w="1438" h="790">
+      <outline x="0" y="1440" w="1438" h="790">
         <column name="Notes" width="20"/>
         <column name="Title" width="1415"/>
         <expanded-items idrefs="t14 t23 t26"/>
-        <expanded-item-notes idrefs="t30 t31 t14 t32"/>
+        <expanded-item-notes idrefs="t30 t55 t44 t27 t47 t53 t31 t14 t45 t28 t23 t48 t43 t32 t26 t54 t46 t29"/>
         <selected-items-at-filter-time idrefs="t26 t14 t23"/>
       </outline>
       <gantt-view x="0" y="0" w="0" h="0">

@@ -97,6 +97,14 @@
     <child-task idref="t31"/>
     <child-task idref="t32"/>
     <child-task idref="t35"/>
+    <child-task idref="t36"/>
+    <child-task idref="t37"/>
+    <child-task idref="t38"/>
+    <child-task idref="t39"/>
+    <child-task idref="t40"/>
+    <child-task idref="t41"/>
+    <child-task idref="t42"/>
+    <child-task idref="t43"/>
     <style>
       <value key="font-weight">9</value>
     </style>
@@ -114,8 +122,10 @@
     <type>milestone</type>
   </task>
   <task id="t23">
-    <title>ACT 3:</title>
+    <title>ACT 3: (REJECT)</title>
     <type>group</type>
+    <child-task idref="t53"/>
+    <child-task idref="t54"/>
     <child-task idref="t4"/>
     <style>
       <value key="font-weight">9</value>
@@ -123,7 +133,15 @@
   </task>
   <task id="t26">
     <title>ACT 2:</title>
-    <effort>28800</effort>
+    <type>group</type>
+    <child-task idref="t44"/>
+    <child-task idref="t45"/>
+    <child-task idref="t46"/>
+    <child-task idref="t47"/>
+    <child-task idref="t48"/>
+    <child-task idref="t49"/>
+    <child-task idref="t50"/>
+    <child-task idref="t51"/>
     <style>
       <value key="font-weight">9</value>
     </style>
@@ -137,19 +155,91 @@
     <type>milestone</type>
   </task>
   <task id="t29">
-    <title>The HERO&apos;S COMPANION urges the HERO to follow the VILLAIN and learn more</title>
+    <title>HERO&apos;S COMPANION urges the HERO to follow the VILLAIN and learn more</title>
     <type>milestone</type>
   </task>
   <task id="t31">
-    <title>The HERO returns to the HERO&apos;S HOVEL to find that it has been turned inside out</title>
+    <title>HERO returns to the HERO&apos;S HOVEL to find that it has been turned inside out</title>
     <type>milestone</type>
   </task>
   <task id="t32">
-    <title>The HERO catches the MENTOR rummaging through their things and challenges her</title>
+    <title>HERO catches the MENTOR rummaging through their things and challenges her</title>
     <type>milestone</type>
   </task>
   <task id="t35">
-    <title>The MENTOR explains that the OBJECT is critical in the VILLAIN&apos;S EVIL PLAN, and asks if the HERO knows where to find more OBJECTS</title>
+    <title>MENTOR explains that the OBJECT is critical in the VILLAIN&apos;S EVIL PLAN, and asks if the HERO knows where to find more OBJECTS</title>
+    <type>milestone</type>
+  </task>
+  <task id="t36">
+    <title>MENTOR gives HERO their card, asking them to get in contact first if the HERO finds another OBJECT.  Almost about to leave, the MENTOR looks our HERO over, and then gives them a WEAPON, saying: &quot;You&apos;re going to need this, kid.&quot;</title>
+    <type>milestone</type>
+  </task>
+  <task id="t37">
+    <title>That night, COMPETING MINIONS arrive to steal the OBJECT and our HERO flees into the night</title>
+    <type>milestone</type>
+  </task>
+  <task id="t38">
+    <title>HERO is scavenging, more desperately, in the RUINS</title>
+    <type>milestone</type>
+  </task>
+  <task id="t39">
+    <title>HERO finds another OBJECT</title>
+    <type>milestone</type>
+  </task>
+  <task id="t40">
+    <title>MENTOR immediately turns up, closely followed by VILLAIN&apos;S MINIONS</title>
+    <type>milestone</type>
+  </task>
+  <task id="t41">
+    <title>HERO escapes in MENTOR&apos;S vehicle: &quot;Get in!&quot; &quot;I can&apos;t.&quot; (Laser fire.) &quot;You don&apos;t have a lotta options, kid.&quot;</title>
+    <type>milestone</type>
+  </task>
+  <task id="t42">
+    <title>The escape is unsuccessful, and both HERO and MENTOR are captured. The HERO is now assumed to be in league with the MENTOR.</title>
+    <type>milestone</type>
+  </task>
+  <task id="t43">
+    <title>HERO and MENTOR are taken to a DUNGEON</title>
+    <type>milestone</type>
+  </task>
+  <task id="t44">
+    <title>Torture</title>
+    <type>milestone</type>
+  </task>
+  <task id="t45">
+    <title>Daring Escape</title>
+    <type>milestone</type>
+  </task>
+  <task id="t46">
+    <title>Partial Re-capture</title>
+    <type>milestone</type>
+  </task>
+  <task id="t47">
+    <title>New ALLIES, including a GODDESS</title>
+    <type>milestone</type>
+  </task>
+  <task id="t48">
+    <title>Unexpected Battle</title>
+    <type>milestone</type>
+  </task>
+  <task id="t49">
+    <title>Separation from MENTOR</title>
+    <type>milestone</type>
+  </task>
+  <task id="t50">
+    <title>TEMPTATION from a HIGH-RANKING FATHER FIGURE BAD GUY, who tries to explain their point of view and their EVIL PLAN</title>
+    <type>milestone</type>
+  </task>
+  <task id="t51">
+    <title>HERO REJECTS and is either cast down, but with knowledge of why the BAD GUYS must be defeated, or ACCEPTS and follows the less traveled path</title>
+    <type>milestone</type>
+  </task>
+  <task id="t53">
+    <title>HERO provides details of the EVIL PLAN to the ALLIES</title>
+    <type>milestone</type>
+  </task>
+  <task id="t54">
+    <title>HERO, MENTOR and ALLIES rush to the </title>
     <type>milestone</type>
   </task>
   <critical-path root="-1" enabled="false" resources="false">

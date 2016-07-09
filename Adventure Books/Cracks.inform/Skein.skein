@@ -29,10 +29,10 @@ Command Summary:
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1005"></child>
+        <children><child nodeId="node-1003"></child>
         </children>
     </item>
-    <item nodeId="node-1005">
+    <item nodeId="node-1003">
         <command xml:space="preserve">1</command>
         <result xml:space="preserve">Welcome to CRACK, and Infinite Worlds Adventure Book.  In order to play, simply select the option that you why to follow.
 
@@ -42,10 +42,10 @@ Select option (1) by typing "1" and pressing ENTER to get started...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1009"></child>
+        <children><child nodeId="node-1004"></child>
         </children>
     </item>
-    <item nodeId="node-1009">
+    <item nodeId="node-1004">
         <command xml:space="preserve">1</command>
         <result xml:space="preserve">Behind you looms the curtain of an opera house.  You are on stage.  The audience is full and waiting for your opening number.  You don't know how you got here. What do you do?
 
@@ -54,58 +54,58 @@ Select option (1) by typing "1" and pressing ENTER to get started...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1010"></child>
+        <children><child nodeId="node-1005"></child>
         </children>
     </item>
-    <item nodeId="node-1010">
+    <item nodeId="node-1005">
         <command xml:space="preserve">1</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1011"></child>
+        <children><child nodeId="node-1006"></child>
         </children>
     </item>
-    <item nodeId="node-1011">
+    <item nodeId="node-1006">
         <command xml:space="preserve">2</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1012"></child>
+        <children><child nodeId="node-1007"></child>
         </children>
     </item>
-    <item nodeId="node-1012">
+    <item nodeId="node-1007">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1013"></child>
+        <children><child nodeId="node-1008"></child>
         </children>
     </item>
-    <item nodeId="node-1013">
+    <item nodeId="node-1008">
         <command xml:space="preserve">examine</command>
         <result xml:space="preserve">You don't have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1014"></child>
+        <children><child nodeId="node-1009"></child>
         </children>
     </item>
-    <item nodeId="node-1014">
+    <item nodeId="node-1009">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1015"></child>
+        <children><child nodeId="node-1010"></child>
         </children>
     </item>
-    <item nodeId="node-1015">
+    <item nodeId="node-1010">
         <command xml:space="preserve">stats</command>
         <result xml:space="preserve">You don't have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1016"></child>
+        <children><child nodeId="node-1011"></child>
         </children>
     </item>
-    <item nodeId="node-1016">
+    <item nodeId="node-1011">
         <command xml:space="preserve">c</command>
         <result xml:space="preserve">You don't have that.
 

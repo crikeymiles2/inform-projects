@@ -130,6 +130,165 @@
     <change idref="t31" attribute="title" type="string" from="The HERO returns to the HERO&apos;S HOVEL to find that it has been turned inside out." to="The HERO returns to the HERO&apos;S HOVEL to find that it has been turned inside out" resolved="yes"/>
     <change idref="t32" attribute="title" type="string" from="The HERO catches" to="The HERO catches the MENTOR rummaging through their things and challenges her" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:22:42.762Z" timestamp="2016-07-09T17:22:42.762Z">
+    <change idref="t36" to="t14" to-position="12" resolved="yes">
+      <change idref="t36" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t36" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t36" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t36" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t36" attribute="title" type="string" to="MENTOR gives HERO their card, asking them to get in contact first if the HERO finds another OBJECT.  Almost about to leave, the MENTOR looks our HERO over, and then gives them a WEAPON, saying: &quot;You&apos;re going to need this, kid.&quot;"/>
+    </change>
+    <change idref="t37" to="t14" to-position="13" resolved="yes">
+      <change idref="t37" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t37" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t37" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t37" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t37" attribute="title" type="string" to="That night, COMPETING MINIONS arrive to steal the OBJECT and our HERO flees into the night"/>
+    </change>
+    <change idref="t38" to="t14" to-position="14" resolved="yes">
+      <change idref="t38" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t38" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t38" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t38" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t38" attribute="title" type="string" to="HERO is scavenging, more desperately, in the RUINS"/>
+    </change>
+    <change idref="t39" to="t14" to-position="15" resolved="yes">
+      <change idref="t39" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t39" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t39" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t39" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t39" attribute="title" type="string" to="HERO finds another OBJECT"/>
+    </change>
+    <change idref="t40" to="t14" to-position="16" resolved="yes">
+      <change idref="t40" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t40" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t40" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t40" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t40" attribute="title" type="string" to="MENTOR immediately turns up, closely followed by VILLAIN&apos;S MINIONS"/>
+    </change>
+    <change idref="t41" to="t14" to-position="17" resolved="yes">
+      <change idref="t41" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t41" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t41" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t41" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t41" attribute="title" type="string" to="HERO escapes in MENTOR&apos;S vehicle: &quot;Get in!&quot; &quot;I can&apos;t.&quot; (Laser fire.) &quot;You don&apos;t have a lotta options, kid.&quot;"/>
+    </change>
+    <change idref="t29" attribute="title" type="string" from="The HERO&apos;S COMPANION urges the HERO to follow the VILLAIN and learn more" to="HERO&apos;S COMPANION urges the HERO to follow the VILLAIN and learn more" resolved="yes"/>
+    <change idref="t31" attribute="title" type="string" from="The HERO returns to the HERO&apos;S HOVEL to find that it has been turned inside out" to="HERO returns to the HERO&apos;S HOVEL to find that it has been turned inside out" resolved="yes"/>
+    <change idref="t32" attribute="title" type="string" from="The HERO catches the MENTOR rummaging through their things and challenges her" to="HERO catches the MENTOR rummaging through their things and challenges her" resolved="yes"/>
+    <change idref="t35" attribute="title" type="string" from="The MENTOR explains that the OBJECT is critical in the VILLAIN&apos;S EVIL PLAN, and asks if the HERO knows where to find more OBJECTS" to="MENTOR explains that the OBJECT is critical in the VILLAIN&apos;S EVIL PLAN, and asks if the HERO knows where to find more OBJECTS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:29:47.430Z" timestamp="2016-07-09T17:29:47.430Z">
+    <change idref="t42" to="t14" to-position="18" resolved="yes">
+      <change idref="t42" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t42" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t42" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t42" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t42" attribute="title" type="string" to="The escape is unsuccessful, and both HERO and MENTOR are captured. The HERO is now assumed to be in league with the MENTOR."/>
+    </change>
+    <change idref="t43" to="t14" to-position="19" resolved="yes">
+      <change idref="t43" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t43" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t43" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t43" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t43" attribute="title" type="string" to="HERO and MENTOR are taken to a DUNGEON"/>
+    </change>
+    <change idref="t26" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t26" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t26" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t26" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t26" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t26" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t44" to="t26" to-position="0" resolved="yes">
+      <change idref="t44" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t44" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t44" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t44" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t44" attribute="title" type="string" to="Torture"/>
+    </change>
+    <change idref="t45" to="t26" to-position="1" resolved="yes">
+      <change idref="t45" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t45" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t45" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t45" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t45" attribute="title" type="string" to="Escape"/>
+    </change>
+    <change idref="t46" to="t26" to-position="2" resolved="yes">
+      <change idref="t46" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t46" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t46" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t46" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t46" attribute="title" type="string" to="Partial Re-capture"/>
+    </change>
+    <change idref="t47" to="t26" to-position="3" resolved="yes">
+      <change idref="t47" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t47" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t47" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t47" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t47" attribute="title" type="string" to="New allies"/>
+    </change>
+    <change idref="t48" to="t26" to-position="4" resolved="yes">
+      <change idref="t48" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t48" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t48" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t48" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t48" attribute="title" type="string" to="Unexpected Battle"/>
+    </change>
+    <change idref="t49" to="t26" to-position="5" resolved="yes">
+      <change idref="t49" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t49" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t49" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t49" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t49" attribute="title" type="string" to="Task 1"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:31:14.215Z" timestamp="2016-07-09T17:31:14.215Z">
+    <change idref="t50" to="t26" to-position="6" resolved="yes">
+      <change idref="t50" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t50" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t50" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t50" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t50" attribute="title" type="string" to="TEMPTATION from a HIGH-RANKING BAD GUY, who tries to explain their point of view"/>
+    </change>
+    <change idref="t45" attribute="title" type="string" from="Escape" to="Daring Escape" resolved="yes"/>
+    <change idref="t47" attribute="title" type="string" from="New allies" to="New allies, including a GODDESS" resolved="yes"/>
+    <change idref="t49" attribute="title" type="string" from="Task 1" to="Separation from MENTOR" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:41:35.823Z" timestamp="2016-07-09T17:41:35.823Z">
+    <change idref="t23" attribute="title" type="string" from="ACT 3:" to="ACT 3: (REJECT)" resolved="yes"/>
+    <change idref="t53" to="t23" to-position="0" resolved="yes">
+      <change idref="t53" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t53" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t53" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t53" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t53" attribute="title" type="string" to="HERO provide the "/>
+    </change>
+    <change idref="t51" to="t26" to-position="7" resolved="yes">
+      <change idref="t51" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t51" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t51" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t51" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t51" attribute="title" type="string" to="HERO REJECTS and is either cast down, but with knowledge of why the BAD GUYS must be defeated, or ACCEPTS and follows the less traveled path"/>
+    </change>
+    <change idref="t50" attribute="title" type="string" from="TEMPTATION from a HIGH-RANKING BAD GUY, who tries to explain their point of view" to="TEMPTATION from a HIGH-RANKING FATHER FIGURE BAD GUY, who tries to explain their point of view and their EVIL PLAN" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:45:46.367Z" timestamp="2016-07-09T17:45:46.367Z">
+    <change idref="t54" to="t23" to-position="1" resolved="yes">
+      <change idref="t54" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t54" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t54" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t54" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t54" attribute="title" type="string" to="HERO, MENTOR and ALLIES rush to the "/>
+    </change>
+    <change idref="t47" attribute="title" type="string" from="New allies, including a GODDESS" to="New ALLIES, including a GODDESS" resolved="yes"/>
+    <change idref="t53" attribute="title" type="string" from="HERO provide the " to="HERO provides details of the EVIL PLAN to the ALLIES" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="crikeymiles" date="2016-07-09T16:55:01.919Z" timestamp="2016-07-09T16:55:01.919Z">
     <change idref="r2" to="r-1" to-position="1" resolved="yes">
       <change idref="r2" attribute="name" type="string" to="Hero"/>

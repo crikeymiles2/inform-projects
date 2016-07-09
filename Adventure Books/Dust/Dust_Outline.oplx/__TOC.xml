@@ -7,11 +7,11 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1438</split-view-divider-position>
-      <outline x="0" y="0" w="1438" h="790">
+      <outline x="9" y="572" w="1438" h="790">
         <column name="Notes" width="20"/>
         <column name="Title" width="1424"/>
-        <expanded-items idrefs="t14 t23"/>
-        <selected-items-at-filter-time idrefs="t8 t9 t13 t34 t26 t30 t14 t3 t35 t27 t10 t4 t31 t23 t15 t5 t28 t11 t6 t24 t16 t32 t7 t29 t12 t33 t25 t17"/>
+        <expanded-items idrefs="t14 t26 t23"/>
+        <selected-items-at-filter-time idrefs="t50 t26 t45 t8 t13 t32 t51 t9 t27 t46 t14 t33 t52 t28 t47 t15 t34 t53 t29 t40 t48 t16 t35 t54 t41 t49 t17 t36 t23 t42 t10 t3 t37 t24 t4 t43 t11 t30 t5 t38 t25 t44 t12 t6 t31 t39 t7"/>
       </outline>
       <gantt-view x="0" y="0" w="0" h="0">
         <view-mode>actual</view-mode>
@@ -134,7 +134,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>36</next-task-id>
+    <next-task-id>55</next-task-id>
     <next-resource-id>3</next-resource-id>
     <scenario id="eCFH13D_KMa" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
