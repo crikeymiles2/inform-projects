@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="crikeymiles" date="2016-07-09T16:55:01.919Z" timestamp="2016-07-09T16:55:01.919Z">
+    <change idref="t1" from="t-1" from-position="0" resolved="yes">
+      <change idref="t1" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t14" to="t-1" to-position="0" resolved="yes">
+      <change idref="t14" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t14" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t14" attribute="title" type="string" to="ACT 1"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="1" resolved="yes">
+      <change idref="t4" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t4" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t4" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t4" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t4" attribute="title" type="string" to="HERO saves planet from BAY GUYS"/>
+    </change>
+    <change idref="t9" to="t14" to-position="0" resolved="yes">
+      <change idref="t9" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t9" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t9" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t9" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t9" attribute="title" type="string" to="HERO is scavenging in the RUINS"/>
+    </change>
+    <change idref="t10" to="t14" to-position="1" resolved="yes">
+      <change idref="t10" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t10" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t10" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t10" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t10" attribute="title" type="string" to="HERO finds the OBJECT"/>
+    </change>
+    <change idref="t12" to="t14" to-position="2" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t12" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t12" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t12" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t12" attribute="title" type="string" to="HERO returns to TOWN, with the OBJECT"/>
+    </change>
+    <change idref="t15" to="t14" to-position="3" resolved="yes">
+      <change idref="t15" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t15" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t15" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t15" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t15" attribute="title" type="string" to="HERO attempts to sell the OBJECT"/>
+    </change>
+    <change idref="t16" to="t14" to-position="4" resolved="yes">
+      <change idref="t16" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t16" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t16" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t16" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t16" attribute="title" type="string" to="OBJECT is stolen from the HERO by a BAY GUY MINION"/>
+    </change>
+    <change idref="t17" to="t14" to-position="5" resolved="yes">
+      <change idref="t17" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t17" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t17" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t17" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t17" attribute="title" type="string" to="HERO chases MINION"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T16:56:52.085Z" timestamp="2016-07-09T16:56:52.085Z">
+    <change idref="t26" to="t-1" to-position="1" resolved="yes">
+      <change idref="t26" attribute="styleDict" type="dict" to="{
+    &quot;font-weight&quot; = 9;
+}"/>
+      <change idref="t26" attribute="title" type="string" to="ACT 2:"/>
+    </change>
+    <change idref="t23" to="t-1" to-position="2" resolved="yes">
+      <change idref="t23" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t23" attribute="styleDict" type="dict" to="{
+    &quot;font-weight&quot; = 9;
+}"/>
+      <change idref="t23" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t23" attribute="title" type="string" to="ACT 3:"/>
+    </change>
+    <change idref="t14" attribute="styleDict" type="dict" to="{
+    &quot;font-weight&quot; = 9;
+}" resolved="yes"/>
+    <change idref="t4" from="t-1" from-position="1" to="t23" to-position="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:01:08.196Z" timestamp="2016-07-09T17:01:08.196Z">
+    <change idref="t14" attribute="title" type="string" from="ACT 1" to="ACT 1: Separation / departure" resolved="yes"/>
+    <change idref="t14" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIb2VmbGVyVGV4dC1SZWd1bGFyO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHA6Ly9jaGFuZ2luZ21pbmRzLm9yZy9kaXNjaXBsaW5lcy9zdG9yeXRlbGxpbmcvcGxvdHMvaGVyb19qb3VybmV5L2hlcm9fam91cm5leS5odG0ifX17XGZsZHJzbHQgClxmMFxmczI0IFxjZjIgaHR0cDovL2NoYW5naW5nbWluZHMub3JnL2Rpc2NpcGxpbmVzL3N0b3J5dGVsbGluZy9wbG90cy9oZXJvX2pvdXJuZXkvaGVyb19qb3VybmV5Lmh0bX19fQ==" resolved="yes"/>
+    <change idref="t17" from="t14" from-position="5" resolved="yes">
+      <change idref="t17" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t17" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t17" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t17" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t17" attribute="title" type="string" to="HERO chases MINION"/>
+    </change>
+    <change idref="t16" from="t14" from-position="4" resolved="yes">
+      <change idref="t16" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t16" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t16" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t16" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t16" attribute="title" type="string" to="OBJECT is stolen from the HERO by a BAY GUY MINION"/>
+    </change>
+    <change idref="t15" from="t14" from-position="3" resolved="yes">
+      <change idref="t15" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t15" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t15" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t15" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t15" attribute="title" type="string" to="HERO attempts to sell the OBJECT"/>
+    </change>
+    <change idref="t12" from="t14" from-position="2" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t12" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t12" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t12" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t12" attribute="title" type="string" to="HERO returns to TOWN, with the OBJECT"/>
+    </change>
+    <change idref="t10" from="t14" from-position="1" resolved="yes">
+      <change idref="t10" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t10" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t10" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t10" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t10" attribute="title" type="string" to="HERO finds the OBJECT"/>
+    </change>
+    <change idref="t9" from="t14" from-position="0" resolved="yes">
+      <change idref="t9" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t9" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t9" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t9" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t9" attribute="title" type="string" to="HERO is scavenging in the RUINS"/>
+    </change>
+    <change idref="t32" to="t14" to-position="0" resolved="yes">
+      <change idref="t32" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBWZXJkYW5hO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUxMDk7XHJlZDEwN1xncmVlbjBcYmx1ZTEwOTt9ClxkZWZ0YWI3MjAKClxpdGFwMVx0cm93ZCBcdGFmbGFnczAgXHRyZ2FwaDEwOFx0cmxlZnQtMTA4IFx0cndXaWR0aDE1NjgwXHRyZnRzV2lkdGgzIFx0cmJyZHJ0XGJyZHJuaWwgXHRyYnJkcmxcYnJkcm5pbCBcdHJicmRydFxicmRybmlsIFx0cmJyZHJyXGJyZHJuaWwgClxjbHZlcnRhbGMgXGNsc2hkcmF3bmlsIFxjbHdXaWR0aDE1NjgwXGNsZnRzV2lkdGgzIFxjbG1hcmw4MCBcY2xtYXJyODAgXGNsYnJkcnRcYnJkcm5pbCBcY2xicmRybFxicmRybmlsIFxjbGJyZHJiXGJyZHJuaWwgXGNsYnJkcnJcYnJkcm5pbCBcY2xwYWRsMCBcY2xwYWRyMCBcZ2FwaFxjZWxseDg2NDAKXHBhcmRcaW50YmxcaXRhcDFccGFyZGVmdGFiNzIwXHNsNDIwXHNhNjdccGFydGlnaHRlbmZhY3RvcjAKClxmMFxiXGZzMzQgXGNmMiBcZXhwbmQwXGV4cG5kdHcwXGtlcm5pbmcwCkRlc2NyaXB0aW9uXApccGFyZFxpbnRibFxpdGFwMVxwYXJkZWZ0YWI3MjBcbGk0OFxyaTQ4XHNsMzM2XHNhMTIwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcYjBcZnMyNCBcY2YwIFRoZSBoZXJvIHN0YXJ0cyBvZmYgaW4gYSBtdW5kYW5lIHNpdHVhdGlvbiBvZiBub3JtYWxpdHkgZnJvbSB3aGljaCBzb21lIGluZm9ybWF0aW9uIGlzIHJlY2VpdmVkIHRoYXQgYWN0cyBhcyBhIGNsYXJpb24gY2FsbCB0byBkb3duIHRvb2xzLCB0YWtlIHVwIHN3b3JkIChsaXRlcmFsbHkgb3IgZmlndXJhdGl2ZWx5KSBhbmQgaGVhZCBvZmYgaW50byB0aGUgdW5rbm93bi5cClRoZSBpbmZvcm1hdGlvbiBtYXkgYmUgYSBwcm9ibGVtLCBhIGNoYWxsZW5nZSBvciByZXF1ZXN0LiBJdCBjcml0aWNhbGx5IGFjdHMgdG8gdHJpZ2dlciBkZXNpcmUsIHdoZXRoZXIgdGhpcyBpcyB0byB3aW4gdGhlIGhhbmQgb2YgYSBsYWR5LCByZWNvdmVyIGEgbG9zdCBvYmplY3Qgb3IgZGVmZWF0IE1pbmcgdGhlIE1lcmNpbGVzcy5cClxwYXJkXGludGJsXGl0YXAxXHBhcmRlZnRhYjcyMFxzbDQyMFxzYTY3XHBhcnRpZ2h0ZW5mYWN0b3IwCgpcYlxmczM0IFxjZjIgRXhhbXBsZVwKXHBhcmRcaW50YmxcaXRhcDFccGFyZGVmdGFiNzIwXGxpNDgwXHJpNDgwXHNsMzM2XHNhMjg4XHBhcnRpZ2h0ZW5mYWN0b3IwCgpcYjBcZnMyNCBcY2YwIEluIFNoZXJsb2NrIEhvbG1lcywgc3RvcmllcyBzdGFydCBpbiAyMjFiIEJha2VyIFN0cmVldCwgd2hlcmUgYSBzdGFydGxpbmcgbGV0dGVyIGlzIHJlY2VpdmVkIG9yIGEgZnJhbnRpYyBsYWR5IGJ1cnN0cyB0aHJvdWdoIHRoZSBkb29yLlwKSW4gU3RhciBXYXJzLCBMZWlhJ3MgaG9sb2dyYXBoaWMgcGxlYSBpcyByZWNlaXZlZCAnSGVscCB1cywgT2JpLVdhbiwgeW91J3JlIG91ciBvbmx5IGhvcGUhJ1wKQWNyb3NzIGEgY3Jvd2RlZCByb29tLCB0aGUgaGVybyBzZWVzIHRoZSBiZWF1dGlmdWwgbWFpZGVuIGFuZCBmYWxscyBpbW1lZGlhdGVseSBpbiBsb3ZlLlwKXHBhcmRcaW50YmxcaXRhcDFccGFyZGVmdGFiNzIwXHNsNDIwXHNhNjdccGFydGlnaHRlbmZhY3RvcjAKClxiXGZzMzQgXGNmMiBEaXNjdXNzaW9uXApccGFyZFxpbnRibFxpdGFwMVxwYXJkZWZ0YWI3MjBcbGk0OFxyaTQ4XHNsMzM2XHNhMTIwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcYjBcZnMyNCBcY2YwIFRoZSBvYmplY3RpdmUgb2YgdGhlIGFkdmVudHVyZSBpcyBvZnRlbiBnZW5lcmljYWxseSByZWZlcnJlZCB0byBhcyB0aGUgJ3RyZWFzdXJlJywgZXZlbiB0aG91Z2ggdGhpcyB0cmVhc3VyZSBtYXkgYmUgb2Ygbm9uLXBoeXNpY2FsIG9yIG5vbi1wZWN1bmlhcnkgbmF0dXJlLCBzdWNoIGFzIGEgZnJlZWQgY2FwdGl2ZSBvciBhY3F1aXJlZCBrbm93bGVkZ2UuXApUaGUgaW5pdGlhbCBzaXR1YXRpb24gb2Ygbm9ybWFsaXR5IGlzIHVzZWZ1bCBpbiBjcmVhdGluZyBhIHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHA6Ly9jaGFuZ2luZ21pbmRzLm9yZy9wcmluY2lwbGVzL2JvbmRpbmcuaHRtIn19e1xmbGRyc2x0IFxjZjMgYm9uZH19IGJldHdlZW4gdGhlIGF1ZGllbmNlIGFuZCB0aGUgaGVyby4gSWYgdGhlIGhlcm8gaXMgbm9ybWFsLCB0aGVuIHRoZSBhdWRpZW5jZSBjYW4gZWFzaWx5IHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHA6Ly9jaGFuZ2luZ21pbmRzLm9yZy9wcmluY2lwbGVzL2Fzc29jaWF0aW9uLmh0bSJ9fXtcZmxkcnNsdCBcY2YzIGFzc29jaWF0ZX19IHdpdGggdGhlIGhlcm8sIGpvaW5pbmcgdGhlaXIge1xmaWVsZHtcKlxmbGRpbnN0e0hZUEVSTElOSyAiaHR0cDovL2NoYW5naW5nbWluZHMub3JnL2V4cGxhbmF0aW9ucy9pZGVudGl0eS9pZGVudGl0eS5odG0ifX17XGZsZHJzbHQgXGNmMyBpZGVudGl0aWVzfX10b2dldGhlciBpbiB2aWNhcmlvdXMgY29tcmFkZXNoaXAuXApUaGUgYXBwZWFyYW5jZSBvZiB0aGUgY2FsbCBwcm92aWRlcyB0aGUgZmlyc3Qgc3RlcCBpbnRvIHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHA6Ly9jaGFuZ2luZ21pbmRzLm9yZy9wcmluY2lwbGVzL3RlbnNpb24uaHRtIn19e1xmbGRyc2x0IFxjZjMgdGVuc2lvbn19LiBXaWxsIHRoZSBoZXJvIGFjY2VwdCB0aGUgY2FsbD8gV291bGQgeW91PyBUaGUgYXVkaWVuY2Ugd2lsbHMgdGhlIGhlcm8gdG8gYWNjZXB0IGFuZCBkbyB3aGF0IGlzIHJpZ2h0IGFuZCB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwOi8vY2hhbmdpbmdtaW5kcy5vcmcvZXhwbGFuYXRpb25zL3ZhbHVlcy92YWx1ZXNfbW9yYWxzX2V0aGljcy5odG0ifX17XGZsZHJzbHQgXGNmMyBtb3JhbH19LiBJdCBhbHNvIHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHA6Ly9jaGFuZ2luZ21pbmRzLm9yZy9leHBsYW5hdGlvbnMvZW1vdGlvbnMvZmVhci5odG0ifX17XGZsZHJzbHQgXGNmMyBmZWFyc319IHRoZSBoZXJvLCBpbiB3aGF0IGRhbmdlciBtYXkgYmUgZW5jb3VudGVyZWQgaWYgdGhlIGNoYWxsZW5nZSBpcyBhY2NlcHRlZC5cClRoZSBjYWxsIG1heSBiZSBhIGdyYWR1YWwgcmVhbGl6YXRpb24gb3IgaXQgbWF5IGJlIGZyb20gYSBjYXRhY2x5c21pYyBldmVudCwgc3VjaCBhcyB0aGUgZGVzdHJ1Y3Rpb24gb2Ygb25lcyBob21lICh0eXBpY2FsbHkgYnkgdGhlIHZpbGxhaW4pLlwKVGhlIGNhbGwgbWF5IHdlbGwgYmUgcmVmdXNlZCB1bnRpbCBpbnRlcm5hbCBwcmVzc3VyZXMgYXJlIHBvd2VyZnVsIGVub3VnaC4gQWR2ZW50dXJlcyBhcmUgb2sgaW4gYm9va3MgYnV0IG9mdGVuIGZyaWdodGVuaW5nIGFuZCBwb3NzaWJseSBkZWFkbHkgaW4gZXhwZXJpZW5jZS4gVGhleSB0aHVzIG1heSBuZWVkIHNvbWUgZW5jb3VyYWdlbWVudCwgc3VjaCBhcyB3b3JzZW5pbmcgY29uZGl0aW9ucyBvciBmdXJ0aGVyIGF0dGFja3MgYnkgdGhlIHZpbGxhaW4uIEEgbWVudG9yIG1heSBoZWxwIHRoaXMgYWxvbmcsIHVyZ2luZyB0aGUgaGVybyB0byByZXNwb25kLlxjZWxsIFxsYXN0cm93XHJvdwp9"/>
+      <change idref="t32" attribute="title" type="string" to="The Call to Adventure"/>
+    </change>
+    <change idref="t31" to="t14" to-position="1" resolved="yes">
+      <change idref="t31" attribute="title" type="string" to="Refusal of the Call"/>
+    </change>
+    <change idref="t30" to="t14" to-position="2" resolved="yes">
+      <change idref="t30" attribute="title" type="string" to="Acceptance of the Call"/>
+    </change>
+    <change idref="t29" to="t14" to-position="3" resolved="yes">
+      <change idref="t29" attribute="title" type="string" to="Supernatural Aid"/>
+    </change>
+    <change idref="t28" to="t14" to-position="4" resolved="yes">
+      <change idref="t28" attribute="title" type="string" to="Crossing of the First Threshold"/>
+    </change>
+    <change idref="t27" to="t14" to-position="5" resolved="yes">
+      <change idref="t27" attribute="title" type="string" to="Entering the Belly of the Whale"/>
+    </change>
+    <change idref="t23" attribute="title" type="string" from="ACT 3:" to="ACT 3: Return" resolved="yes"/>
+    <change idref="t4" from="t23" from-position="0" resolved="yes">
+      <change idref="t4" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t4" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t4" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t4" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t4" attribute="title" type="string" to="HERO saves planet from BAY GUYS"/>
+    </change>
+    <change idref="t55" to="t23" to-position="0" resolved="yes">
+      <change idref="t55" attribute="title" type="string" to="Refusal of the Return"/>
+    </change>
+    <change idref="t54" to="t23" to-position="1" resolved="yes">
+      <change idref="t54" attribute="title" type="string" to="Magic Flight"/>
+    </change>
+    <change idref="t53" to="t23" to-position="2" resolved="yes">
+      <change idref="t53" attribute="title" type="string" to="Rescue From Without"/>
+    </change>
+    <change idref="t52" to="t23" to-position="3" resolved="yes">
+      <change idref="t52" attribute="title" type="string" to="Crossing of the Return Threshold"/>
+    </change>
+    <change idref="t51" to="t23" to-position="4" resolved="yes">
+      <change idref="t51" attribute="title" type="string" to="Master of the Two Worlds"/>
+    </change>
+    <change idref="t50" to="t23" to-position="5" resolved="yes">
+      <change idref="t50" attribute="title" type="string" to="Freedom to Live"/>
+    </change>
+    <change idref="t26" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t26" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t26" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t26" attribute="title" type="string" from="ACT 2:" to="ACT 2: Initiation" resolved="yes"/>
+    <change idref="t26" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t26" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t26" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t26" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t48" to="t26" to-position="0" resolved="yes">
+      <change idref="t48" attribute="title" type="string" to="Road of Trials"/>
+    </change>
+    <change idref="t47" to="t26" to-position="1" resolved="yes">
+      <change idref="t47" attribute="title" type="string" to="The Meeting with the Goddess"/>
+    </change>
+    <change idref="t46" to="t26" to-position="2" resolved="yes">
+      <change idref="t46" attribute="title" type="string" to="Woman as Temptress"/>
+    </change>
+    <change idref="t45" to="t26" to-position="3" resolved="yes">
+      <change idref="t45" attribute="title" type="string" to="Atonement with the Father"/>
+    </change>
+    <change idref="t44" to="t26" to-position="4" resolved="yes">
+      <change idref="t44" attribute="title" type="string" to="Apotheosis"/>
+    </change>
+    <change idref="t43" to="t26" to-position="5" resolved="yes">
+      <change idref="t43" attribute="title" type="string" to="The Ultimate Boon"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:05:03.093Z" timestamp="2016-07-09T17:05:03.093Z">
+    <change idref="t27" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t27" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t27" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t27" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t28" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t28" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t28" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t28" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t29" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t29" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t29" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t29" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t30" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t30" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t30" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t30" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t31" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t31" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t31" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t31" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t32" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t32" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t32" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t32" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t43" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t43" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t43" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t43" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t44" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t44" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t44" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t44" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t45" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t45" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t45" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t45" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t46" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t46" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t46" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t46" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t47" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t47" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t47" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t47" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t48" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t48" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t48" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t48" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t50" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t50" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t50" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t50" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t51" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t51" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t51" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t51" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t52" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t52" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t52" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t52" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t53" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t53" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t53" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t53" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t54" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t54" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t54" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t54" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+    <change idref="t55" attribute="isSplittableTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t55" attribute="taskType" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t55" attribute="effort" type="real" from="28800" to="0" resolved="yes"/>
+    <change idref="t55" attribute="percentCompleteForMilestone" type="real" to="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:11:06.235Z" timestamp="2016-07-09T17:11:06.235Z">
+    <change idref="t31" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBWZXJkYW5hO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUxMDk7XHJlZDBcZ3JlZW4wXGJsdWUwO1xyZWQxNFxncmVlbjE0XGJsdWUxNDsKXHJlZDEwN1xncmVlbjBcYmx1ZTEwOTt9ClxkZWZ0YWI3MjAKClxpdGFwMVx0cm93ZCBcdGFmbGFnczAgXHRyZ2FwaDEwOFx0cmxlZnQtMTA4IFx0cndXaWR0aDE1NjgwXHRyZnRzV2lkdGgzIFx0cmJyZHJ0XGJyZHJuaWwgXHRyYnJkcmxcYnJkcm5pbCBcdHJicmRydFxicmRybmlsIFx0cmJyZHJyXGJyZHJuaWwgClxjbHZlcnRhbGMgXGNsc2hkcmF3bmlsIFxjbHdXaWR0aDE1NjgwXGNsZnRzV2lkdGgzIFxjbG1hcmw4MCBcY2xtYXJyODAgXGNsYnJkcnRcYnJkcm5pbCBcY2xicmRybFxicmRybmlsIFxjbGJyZHJiXGJyZHJuaWwgXGNsYnJkcnJcYnJkcm5pbCBcY2xwYWRsMCBcY2xwYWRyMCBcZ2FwaFxjZWxseDg2NDAKXHBhcmRcaW50YmxcaXRhcDFccGFyZGVmdGFiNzIwXHNsNDIwXHNhNjdccGFydGlnaHRlbmZhY3RvcjAKClxmMFxiXGZzMzQgXGNmMiBcZXhwbmQwXGV4cG5kdHcwXGtlcm5pbmcwClxvdXRsMFxzdHJva2V3aWR0aDAgXHN0cm9rZWMyIERlc2NyaXB0aW9uXApccGFyZFxpbnRibFxpdGFwMVxwYXJkZWZ0YWI3MjBcbGk0OFxyaTQ4XHNsMzM2XHNhMTIwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcYjBcZnMyNCBcY2YzIFxzdHJva2VjMyBUaGUgaGVybywgaGVhcmluZyB0aGUge1xmaWVsZHtcKlxmbGRpbnN0e0hZUEVSTElOSyAiaHR0cDovL2NoYW5naW5nbWluZHMub3JnL2Rpc2NpcGxpbmVzL3N0b3J5dGVsbGluZy9wbG90cy9oZXJvX2pvdXJuZXkvY2FsbF9hZHZlbnR1cmUuaHRtIn19e1xmbGRyc2x0IFxjZjUgXHN0cm9rZWM1IGNhbGwgdG8gYWR2ZW50dXJlfX0sIGluaXRpYWxseSBtYXkgaGVzaXRhdGUsIHJlbHVjdGFudCB0byBsZWF2ZSB0aGUgY29tZm9ydCBhbmQgdGFza3Mgb2YgdGhlaXIgZXZlcnlkYXkgZXhpc3RlbmNlLlwKUGVyaGFwcyB0aGV5IGFyZSBhZnJhaWQgb2Ygd2hhdCBtaWdodCBoYXBwZW4gdGhlIHRoZW0uIFBlcmhhcHMgdGhleSBkbyBub3Qgc2VlIHRoZSBjYWxsIGFzIGltcG9ydGFudCwgYmVpbmcgbW9yZSBlbmdyb3NzZWQgaW4gdGhlaXIgY3VycmVudCBhY3Rpdml0eS4gUGVyaGFwcyB0aGV5IGhhdmUgcmVzcG9uc2liaWxpdGllcyBhbmQgZG8gbm90IHdhbnQgdG8gbGVhdmUgdGhlaXIgZmFtaWx5LiBUaGUgcmVmdXNhbCBtYXkgd2VsbCBiZSBwcm9tcHRlZCBieSBhbiBpbmRpdmlkdWFsLCBzdWNoIGFzIHdpdGggUHJvcHAncyB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwOi8vY2hhbmdpbmdtaW5kcy5vcmcvZGlzY2lwbGluZXMvc3Rvcnl0ZWxsaW5nL3Bsb3RzL3Byb3BwL2ludGVyZGljdGlvbi5odG0ifX17XGZsZHJzbHQgXGNmNSBcc3Ryb2tlYzUgSW50ZXJkaWN0aW9ufX0uXApccGFyZFxpbnRibFxpdGFwMVxwYXJkZWZ0YWI3MjBcc2w0MjBcc2E2N1xwYXJ0aWdodGVuZmFjdG9yMAoKXGJcZnMzNCBcY2YyIFxzdHJva2VjMiBFeGFtcGxlXApccGFyZFxpbnRibFxpdGFwMVxwYXJkZWZ0YWI3MjBcbGk0ODBccmk0ODBcc2wzMzZcc2EyODhccGFydGlnaHRlbmZhY3RvcjAKClxiMFxmczI0IFxjZjMgXHN0cm9rZWMzIFNoZXJsb2NrIEhvbG1lcyBvZnRlbiByZWZ1c2VzIGNhc2VzIGluaXRpYWxseSwgc2VlaW5nIHRoZW0gYXMgYmVuZWF0aCBoaXMgaW50ZWxsZWN0IHVudGlsIHNvbWUgZmFzY2luYXRpbmcgZGV0YWlsIGF3YWtlbnMgaGlzIGludGVyZXN0LlwKSW4gU3RhciBXYXJzLCBMdWtlJ3MgdW5jbGUgT3dlbiByZW1pbmRzIGhpbSBvZiBoaXMgcmVzcG9uc2liaWxpdGllcyBhdCBob21lLlwKXHBhcmRcaW50YmxcaXRhcDFccGFyZGVmdGFiNzIwXHNsNDIwXHNhNjdccGFydGlnaHRlbmZhY3RvcjAKClxiXGZzMzQgXGNmMiBcc3Ryb2tlYzIgRGlzY3Vzc2lvblwKXHBhcmRcaW50YmxcaXRhcDFccGFyZGVmdGFiNzIwXGxpNDhccmk0OFxzbDMzNlxzYTEyMFxwYXJ0aWdodGVuZmFjdG9yMAoKXGIwXGZzMjQgXGNmMyBcc3Ryb2tlYzMgSW4gdGhlIGludHJvZHVjdGlvbiB0byB0aGUgc3Rvcnkgd2UgbWF5IGFscmVhZHkgaGF2ZSBiZWVuIHNob3duIHRoZSBuZWVkIGZvciB0aGUgaGVyby4gSG93ZXZlciwgdGhlIGhlcm8ncyBpbml0aWFsIGRlbmlhbCwgbW9kZXN0eSBvciBvdGhlciByZWZ1c2FsIHRvIHJlc3BvbmQgcG9zaXRpdmVseSB0byB0aGUgY2FsbCBmcnVzdHJhdGVzIHVzLCBpbml0aWF0aW5nIHRlbnNpb24gaW4gdGhlIHN0b3J5LlwKVGhlIGhlcm8ncyByZWZ1c2FsIG1heSBhbHNvIG1ha2UgdGhlIGhlcm8gbW9yZSBodW1hbiBhbmQgZnVydGhlciB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwOi8vY2hhbmdpbmdtaW5kcy5vcmcvcHJpbmNpcGxlcy9ib25kaW5nLmh0bSJ9fXtcZmxkcnNsdCBcY2Y1IFxzdHJva2VjNSBib25kfX0gdXMgdG8gdGhlbS4gSXQgc2hvd3MgdGhlaXIgaW5pdGlhbCBmcmFpbCBzdGF0ZSwgYmVmb3JlIHRoZSB0cmFuc2Zvcm1hdGlvbiB0aGF0IHdpbGwgaGFwcGVuIHRvIHRoZW0gaW4gdGhlIHN0b3J5LlwKTm90ZSB0aGF0IHRoZXJlIG1heSBiZSBhIHNpbWlsYXJpdHkgaGVyZSB3aXRoIHRoZSB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwOi8vY2hhbmdpbmdtaW5kcy5vcmcvZGlzY2lwbGluZXMvY2hhbmdlX21hbmFnZW1lbnQva3VibGVyX3Jvc3Mva3VibGVyX3Jvc3MuaHRtIn19e1xmbGRyc2x0IFxjZjUgXHN0cm9rZWM1IEtcdWMwXHU2NTUzMyBibGVyLVJvc3MgZ3JpZWYgY3ljbGV9fSwgd2hlcmUgc29tZSB0cmFnZWR5IG9yIGRpc3R1cmJhbmNlIG9jY3VycyBhbmQgdGhlIGhlcm8gaXMgaW5pdGlhbGx5IHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHA6Ly9jaGFuZ2luZ21pbmRzLm9yZy9kaXNjaXBsaW5lcy9jaGFuZ2VfbWFuYWdlbWVudC9rdWJsZXJfcm9zcy9zaG9ja19zdGFnZS5odG0ifX17XGZsZHJzbHQgXGNmNSBcc3Ryb2tlYzUgc2hvY2tlZH19LCB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwOi8vY2hhbmdpbmdtaW5kcy5vcmcvZGlzY2lwbGluZXMvY2hhbmdlX21hbmFnZW1lbnQva3VibGVyX3Jvc3MvYW5nZXJfc3RhZ2UuaHRtIn19e1xmbGRyc2x0IFxjZjUgXHN0cm9rZWM1IGFuZ3J5fX0gYW5kIHJlZnVzZXMgdGhlIENhbGwgd2hpbHN0IHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHA6Ly9jaGFuZ2luZ21pbmRzLm9yZy9kaXNjaXBsaW5lcy9jaGFuZ2VfbWFuYWdlbWVudC9rdWJsZXJfcm9zcy9iYXJnYWluaW5nX3N0YWdlLmh0bSJ9fXtcZmxkcnNsdCBcY2Y1IFxzdHJva2VjNSBiYXJnYWluaW5nfX0gZm9yIHNvbWUgYWx0ZXJuYXRpdmUgKHN1Y2ggYXMgc2VuZGluZyBzb21lb25lIGVsc2UpLlxjZWxsIFxsYXN0cm93XHJvd30=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:11:37.212Z" timestamp="2016-07-09T17:11:37.212Z">
+    <change idref="t30" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNDA0XGNvY29hc3VicnRmNDcwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBWZXJkYW5hO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUxMDk7XHJlZDBcZ3JlZW4wXGJsdWUwO1xyZWQxNFxncmVlbjE0XGJsdWUxNDsKXHJlZDEwN1xncmVlbjBcYmx1ZTEwOTt9ClxkZWZ0YWI3MjAKClxpdGFwMVx0cm93ZCBcdGFmbGFnczAgXHRyZ2FwaDEwOFx0cmxlZnQtMTA4IFx0cndXaWR0aDE1NjgwXHRyZnRzV2lkdGgzIFx0cmJyZHJ0XGJyZHJuaWwgXHRyYnJkcmxcYnJkcm5pbCBcdHJicmRydFxicmRybmlsIFx0cmJyZHJyXGJyZHJuaWwgClxjbHZlcnRhbGMgXGNsc2hkcmF3bmlsIFxjbHdXaWR0aDE1NjgwXGNsZnRzV2lkdGgzIFxjbG1hcmw4MCBcY2xtYXJyODAgXGNsYnJkcnRcYnJkcm5pbCBcY2xicmRybFxicmRybmlsIFxjbGJyZHJiXGJyZHJuaWwgXGNsYnJkcnJcYnJkcm5pbCBcY2xwYWRsMCBcY2xwYWRyMCBcZ2FwaFxjZWxseDg2NDAKXHBhcmRcaW50YmxcaXRhcDFccGFyZGVmdGFiNzIwXHNsNDIwXHNhNjdccGFydGlnaHRlbmZhY3RvcjAKClxmMFxiXGZzMzQgXGNmMiBcZXhwbmQwXGV4cG5kdHcwXGtlcm5pbmcwClxvdXRsMFxzdHJva2V3aWR0aDAgXHN0cm9rZWMyIERlc2NyaXB0aW9uXApccGFyZFxpbnRibFxpdGFwMVxwYXJkZWZ0YWI3MjBcbGk0OFxyaTQ4XHNsMzM2XHNhMTIwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcYjBcZnMyNCBcY2YzIFxzdHJva2VjMyBBZnRlciBoYXZpbmcgcGVyaGFwcyBmaXJzdCByZWZ1c2VkIHRvIGFjY2VwdCB0aGUge1xmaWVsZHtcKlxmbGRpbnN0e0hZUEVSTElOSyAiaHR0cDovL2NoYW5naW5nbWluZHMub3JnL2Rpc2NpcGxpbmVzL3N0b3J5dGVsbGluZy9wbG90cy9oZXJvX2pvdXJuZXkvY2FsbF9hZHZlbnR1cmUuaHRtIn19e1xmbGRyc2x0IFxjZjUgXHN0cm9rZWM1IFRoZSBDYWxsIHRvIEFkdmVudHVyZX19IHRoZSBoZXJvIGZpbmFsbHkgYWNjZWRlcywgcmVhbGl6aW5nIHRoYXQgdGhlcmUgaXMgbm9ib2R5IGVsc2Ugd2hvIGlzIGJldHRlciBxdWFsaWZpZWQgdG8gb3IgYXZhaWxhYmxlIHRvIGFjY2VwdCByZXNwb25zaWJpbGl0eS5cClRoaXMgYWNjZXB0YW5jZSBtYXkgY29tZSBhZnRlciByZWZsZWN0aW9uIGFuZCBwZXJzdWFzaW9uIGZvbGxvd2luZyB0aGUge1xmaWVsZHtcKlxmbGRpbnN0e0hZUEVSTElOSyAiaHR0cDovL2NoYW5naW5nbWluZHMub3JnL2Rpc2NpcGxpbmVzL3N0b3J5dGVsbGluZy9wbG90cy9oZXJvX2pvdXJuZXkvcmVmdXNhbF9jYWxsLmh0bSJ9fXtcZmxkcnNsdCBcY2Y1IFxzdHJva2VjNSBSZWZ1c2FsIG9mIHRoZSBDYWxsfX0sIG9yIHRoZSBoZXJvIG1heSBiZSBjb252aW5jZWQgYnkgYSBtZW50b3Igd2hvIHByb3ZpZGVzIHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHA6Ly9jaGFuZ2luZ21pbmRzLm9yZy9kaXNjaXBsaW5lcy9zdG9yeXRlbGxpbmcvcGxvdHMvaGVyb19qb3VybmV5L3N1cGVybmF0dXJhbF9haWQuaHRtIn19e1xmbGRyc2x0IFxjZjUgXHN0cm9rZWM1IFN1cGVybmF0dXJhbCBBaWR9fS5cClxwYXJkXGludGJsXGl0YXAxXHBhcmRlZnRhYjcyMFxzbDQyMFxzYTY3XHBhcnRpZ2h0ZW5mYWN0b3IwCgpcYlxmczM0IFxjZjIgXHN0cm9rZWMyIEV4YW1wbGVcClxwYXJkXGludGJsXGl0YXAxXHBhcmRlZnRhYjcyMFxsaTQ4MFxyaTQ4MFxzbDMzNlxzYTI4OFxwYXJ0aWdodGVuZmFjdG9yMAoKXGIwXGZzMjQgXGNmMyBcc3Ryb2tlYzMgU2hlcmxvY2sgSG9sbWVzIGZpbmRzIHNvbWV0aGluZyBpbnRyaWd1aW5nIGFib3V0IHRoZSByZXF1ZXN0IGZvciBoaXMgc2VydmljZXMgd2hlcmVieSBoZSBrbm93cyB0aGF0IG9ubHkgaGUgY2FuIHNvbHZlIHRoaXMgbXlzdGVyeS5cCkluIFN0YXIgV2FycywgTHVrZSByZXR1cm5zIHRvIGZpbmQgdGhlIGZhbWlseSBmYXJtIGRlc3Ryb3llZCB0aGUgdGhlIEVtcGlyZSBhbmQgc28gbm93IGhhcyBubyByZWFzb24gdG8gc3RheS5cCkluIExvcmQgb2YgdGhlIFJpbmdzLCBGcm9kbyBzZXRzIG91dCBhcyB0aGUgXHVjMFx1ODIzMiBEYXJrIFJpZGVycyBzdGFydCBzZWFyY2hpbmcgdGhlIFNoaXJlIGZvciBoaW0uXApccGFyZFxpbnRibFxpdGFwMVxwYXJkZWZ0YWI3MjBcc2w0MjBcc2E2N1xwYXJ0aWdodGVuZmFjdG9yMAoKXGJcZnMzNCBcY2YyIFxzdHJva2VjMiBEaXNjdXNzaW9uXApccGFyZFxpbnRibFxpdGFwMVxwYXJkZWZ0YWI3MjBcbGk0OFxyaTQ4XHNsMzM2XHNhMTIwXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcYjBcZnMyNCBcY2YzIFxzdHJva2VjMyBBY2NlcHRhbmNlIG9mIGEgY2FsbCB0byB0YWtlIGFjdGlvbnMgdGhhdCBtYXkgcmVzdWx0IGluIGRhbmdlciBpcyB0aGUgZmlyc3Qgc3RlcCBvbiB0aGUgcm9hZCB0byBiZWNvbWluZyBhIHRydWUgaGVyby4gVGhlIHN0b3J5IGhlcm8gbWF5IG5vdCBmZWVsIHRoaXMgd2F5IG9yIHJlYWxpemUgdGhlIGltcG9ydGFuY2Ugb2YgdGhpcyBzdGVwLCBhbmQgbWF5IHN0ZXAgb3V0IHdpdGggc29tZSBkcmVhZC4gTmV2ZXJ0aGVsZXNzLCB0aGV5IGFyZSBmaWdodGluZyB0aGVpciBvd24gZmVhcnMgYW5kXApJbiB0aGlzIGZpcnN0IGhlcm9pYyBzdGVwIHRoZSBhdWRpZW5jZSwgbm93IGJvbmRlZCB3aXRoIHRoZSBoZXJvLCBnYXNwcyBhdCB0aGUgcmlza3MgYW5kIHlldCBmZWVscyBzb21lIHByaWRlIGF0IHRoZSBjb3VyYWdlIGl0IHJlcXVpcmVzLiBBIHNlbnNlIG9mIGFudGljaXBhdGlvbiBpcyBjcmVhdGVkLCBzb21ldGhpbmcgbGlrZSB3aGVuIGEgcm9sbGVyLWNvYXN0ZXIgcmlkZSBqdXN0IHN0YXJ0cyBtb3ZpbmcgZnJvbSBpdHMgaW5pdGlhbCBwb3NpdGlvbiBvZiByZXN0LlwKVGhlcmUgbWF5IGJlIGEgc2ltaWxhcml0eSBoZXJlIHdpdGggdGhlIHtcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHA6Ly9jaGFuZ2luZ21pbmRzLm9yZy9kaXNjaXBsaW5lcy9jaGFuZ2VfbWFuYWdlbWVudC9rdWJsZXJfcm9zcy9rdWJsZXJfcm9zcy5odG0ifX17XGZsZHJzbHQgXGNmNSBcc3Ryb2tlYzUgS1x1YzBcdTY1NTMzIGJsZXItUm9zcyBncmllZiBjeWNsZX19LCB3aGVyZSwgYWZ0ZXIgdGhlIGVhcmx5IHNob2NrIGFuZCB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwOi8vY2hhbmdpbmdtaW5kcy5vcmcvZGlzY2lwbGluZXMvY2hhbmdlX21hbmFnZW1lbnQva3VibGVyX3Jvc3MvYmFyZ2FpbmluZ19zdGFnZS5odG0ifX17XGZsZHJzbHQgXGNmNSBcc3Ryb2tlYzUgYmFyZ2FpbmluZ319IG9mIHRoZSB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwOi8vY2hhbmdpbmdtaW5kcy5vcmcvZGlzY2lwbGluZXMvc3Rvcnl0ZWxsaW5nL3Bsb3RzL2hlcm9fam91cm5leS9yZWZ1c2FsX2NhbGwuaHRtIn19e1xmbGRyc2x0IFxjZjUgXHN0cm9rZWM1IFJlZnVzYWwgb2YgdGhlIENhbGx9fSwgdGhpcyBpcyBmb2xsb3dlZCBieSB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwOi8vY2hhbmdpbmdtaW5kcy5vcmcvZGlzY2lwbGluZXMvY2hhbmdlX21hbmFnZW1lbnQva3VibGVyX3Jvc3MvdGVzdGluZ19zdGFnZS5odG0ifX17XGZsZHJzbHQgXGNmNSBcc3Ryb2tlYzUgdGVzdGluZ319IGFuZCB7XGZpZWxke1wqXGZsZGluc3R7SFlQRVJMSU5LICJodHRwOi8vY2hhbmdpbmdtaW5kcy5vcmcvZGlzY2lwbGluZXMvY2hhbmdlX21hbmFnZW1lbnQva3VibGVyX3Jvc3MvYWNjZXB0YW5jZV9zdGFnZS5odG0ifX17XGZsZHJzbHQgXGNmNSBcc3Ryb2tlYzUgLmFjY2VwdGFuY2V9fSBvZiB0aGUgbmV3IGFkdmVudHVyaW5nIHJvbGUuXGNlbGwgXGxhc3Ryb3dccm93fQ=="/>
+  </task-change-set>
+  <resource-change-set user="crikeymiles" date="2016-07-09T16:55:01.919Z" timestamp="2016-07-09T16:55:01.919Z">
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" to="Hero"/>
+    </change>
+  </resource-change-set>
+  <metadata-change-set user="crikeymiles" date="2016-07-09T16:44:37.160Z" timestamp="2016-07-09T16:44:37.160Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-07-08T23:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="crikeymiles" date="2016-07-09T16:55:01.918Z" timestamp="2016-07-09T16:55:01.918Z">
+    <change idref="m1" attribute="baseStyle" type="dict" to="{
+    &quot;font-family&quot; = &quot;Hoefler Text&quot;;
+    &quot;font-size&quot; = 24;
+}" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

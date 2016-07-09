@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="fEqYfIg8c-3">
+  <start-date>2016-07-08T23:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+  </resource>
+  <resource id="r1">
+    <name>Resource 1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r2">
+    <name>Hero</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t14"/>
+    <child-task idref="t26"/>
+    <child-task idref="t23"/>
+  </task>
+  <task id="t14">
+    <title>ACT 1: Separation / departure</title>
+    <type>group</type>
+    <child-task idref="t32"/>
+    <child-task idref="t31"/>
+    <child-task idref="t30"/>
+    <child-task idref="t29"/>
+    <child-task idref="t28"/>
+    <child-task idref="t27"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">http://changingminds.org/disciplines/storytelling/plots/hero_journey/hero_journey.htm</value>
+            </style>
+            <lit>http://changingminds.org/disciplines/storytelling/plots/hero_journey/hero_journey.htm</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-weight">9</value>
+    </style>
+  </task>
+  <task id="t23">
+    <title>ACT 3: Return</title>
+    <type>group</type>
+    <child-task idref="t55"/>
+    <child-task idref="t54"/>
+    <child-task idref="t53"/>
+    <child-task idref="t52"/>
+    <child-task idref="t51"/>
+    <child-task idref="t50"/>
+    <style>
+      <value key="font-weight">9</value>
+    </style>
+  </task>
+  <task id="t26">
+    <title>ACT 2: Initiation</title>
+    <type>group</type>
+    <child-task idref="t48"/>
+    <child-task idref="t47"/>
+    <child-task idref="t46"/>
+    <child-task idref="t45"/>
+    <child-task idref="t44"/>
+    <child-task idref="t43"/>
+    <style>
+      <value key="font-weight">9</value>
+    </style>
+  </task>
+  <task id="t27">
+    <title>Entering the Belly of the Whale</title>
+    <type>milestone</type>
+  </task>
+  <task id="t28">
+    <title>Crossing of the First Threshold</title>
+    <type>milestone</type>
+  </task>
+  <task id="t29">
+    <title>Supernatural Aid</title>
+    <type>milestone</type>
+  </task>
+  <task id="t30">
+    <title>Acceptance of the Call</title>
+    <type>milestone</type>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-size">17</value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-weight">9</value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-minimum-line-height">21</value>
+              <value key="paragraph-spacing">3.359999895095825</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+            </style>
+            <lit>Description</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>After having perhaps first refused to accept the </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/storytelling/plots/hero_journey/call_adventure.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>The Call to Adventure</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit> the hero finally accedes, realizing that there is nobody else who is better qualified to or available to accept responsibility.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>This acceptance may come after reflection and persuasion following the </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/storytelling/plots/hero_journey/refusal_call.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>Refusal of the Call</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>, or the hero may be convinced by a mentor who provides </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/storytelling/plots/hero_journey/supernatural_aid.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>Supernatural Aid</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-size">17</value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-weight">9</value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-minimum-line-height">21</value>
+              <value key="paragraph-spacing">3.359999895095825</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+            </style>
+            <lit>Example</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">24</value>
+              <value key="paragraph-head-indent">24</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">14.39999961853027</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">24</value>
+            </style>
+            <lit>Sherlock Holmes finds something intriguing about the request for his services whereby he knows that only he can solve this mystery.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">24</value>
+              <value key="paragraph-head-indent">24</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">14.39999961853027</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">24</value>
+            </style>
+            <lit>In Star Wars, Luke returns to find the family farm destroyed the the Empire and so now has no reason to stay.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">24</value>
+              <value key="paragraph-head-indent">24</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">14.39999961853027</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">24</value>
+            </style>
+            <lit>In Lord of the Rings, Frodo sets out as the </lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">24</value>
+              <value key="paragraph-head-indent">24</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">14.39999961853027</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">24</value>
+            </style>
+            <lit>Dark Riders start searching the Shire for him.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-size">17</value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-weight">9</value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-minimum-line-height">21</value>
+              <value key="paragraph-spacing">3.359999895095825</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+            </style>
+            <lit>Discussion</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>Acceptance of a call to take actions that may result in danger is the first step on the road to becoming a true hero. The story hero may not feel this way or realize the importance of this step, and may step out with some dread. Nevertheless, they are fighting their own fears and</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>In this first heroic step the audience, now bonded with the hero, gasps at the risks and yet feels some pride at the courage it requires. A sense of anticipation is created, something like when a roller-coaster ride just starts moving from its initial position of rest.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>There may be a similarity here with the </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/change_management/kubler_ross/kubler_ross.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>K�bler-Ross grief cycle</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>, where, after the early shock and </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/change_management/kubler_ross/bargaining_stage.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>bargaining</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit> of the </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/storytelling/plots/hero_journey/refusal_call.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>Refusal of the Call</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>, this is followed by </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/change_management/kubler_ross/testing_stage.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>testing</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit> and </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/change_management/kubler_ross/acceptance_stage.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>.acceptance</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit> of the new adventuring role.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t31">
+    <title>Refusal of the Call</title>
+    <type>milestone</type>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-size">17</value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-weight">9</value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-minimum-line-height">21</value>
+              <value key="paragraph-spacing">3.359999895095825</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+            </style>
+            <lit>Description</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>The hero, hearing the </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/storytelling/plots/hero_journey/call_adventure.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>call to adventure</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>, initially may hesitate, reluctant to leave the comfort and tasks of their everyday existence.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>Perhaps they are afraid of what might happen the them. Perhaps they do not see the call as important, being more engrossed in their current activity. Perhaps they have responsibilities and do not want to leave their family. The refusal may well be prompted by an individual, such as with Propp&apos;s </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/storytelling/plots/propp/interdiction.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>Interdiction</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-size">17</value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-weight">9</value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-minimum-line-height">21</value>
+              <value key="paragraph-spacing">3.359999895095825</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+            </style>
+            <lit>Example</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">24</value>
+              <value key="paragraph-head-indent">24</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">14.39999961853027</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">24</value>
+            </style>
+            <lit>Sherlock Holmes often refuses cases initially, seeing them as beneath his intellect until some fascinating detail awakens his interest.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">24</value>
+              <value key="paragraph-head-indent">24</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">14.39999961853027</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">24</value>
+            </style>
+            <lit>In Star Wars, Luke&apos;s uncle Owen reminds him of his responsibilities at home.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-size">17</value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-weight">9</value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-minimum-line-height">21</value>
+              <value key="paragraph-spacing">3.359999895095825</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+            </style>
+            <lit>Discussion</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>In the introduction to the story we may already have been shown the need for the hero. However, the hero&apos;s initial denial, modesty or other refusal to respond positively to the call frustrates us, initiating tension in the story.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>The hero&apos;s refusal may also make the hero more human and further </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/principles/bonding.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>bond</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit> us to them. It shows their initial frail state, before the transformation that will happen to them in the story.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>Note that there may be a similarity here with the </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/change_management/kubler_ross/kubler_ross.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>K�bler-Ross grief cycle</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>, where some tragedy or disturbance occurs and the hero is initially </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/change_management/kubler_ross/shock_stage.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>shocked</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>, </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/change_management/kubler_ross/anger_stage.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>angry</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit> and refuses the Call whilst </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/disciplines/change_management/kubler_ross/bargaining_stage.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit>bargaining</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="font-stroke">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367432</value>
+              <value key="paragraph-head-indent">2.400000095367432</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tab-stops"></value>
+              <value key="paragraph-tail-indent">2.400000095367432</value>
+            </style>
+            <lit> for some alternative (such as sending someone else).</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t32">
+    <title>The Call to Adventure</title>
+    <type>milestone</type>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-size">17</value>
+              <value key="font-weight">9</value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-minimum-line-height">21</value>
+              <value key="paragraph-spacing">3.359999895095825</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+            </style>
+            <lit>Description</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>The hero starts off in a mundane situation of normality from which some information is received that acts as a clarion call to down tools, take up sword (literally or figuratively) and head off into the unknown.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>The information may be a problem, a challenge or request. It critically acts to trigger desire, whether this is to win the hand of a lady, recover a lost object or defeat Ming the Merciless.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-size">17</value>
+              <value key="font-weight">9</value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-minimum-line-height">21</value>
+              <value key="paragraph-spacing">3.359999895095825</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+            </style>
+            <lit>Example</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">24</value>
+              <value key="paragraph-head-indent">24</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">14.39999961853027</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">24</value>
+            </style>
+            <lit>In Sherlock Holmes, stories start in 221b Baker Street, where a startling letter is received or a frantic lady bursts through the door.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">24</value>
+              <value key="paragraph-head-indent">24</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">14.39999961853027</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">24</value>
+            </style>
+            <lit>In Star Wars, Leia&apos;s holographic plea is received &apos;Help us, Obi-Wan, you&apos;re our only hope!&apos;</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">24</value>
+              <value key="paragraph-head-indent">24</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">14.39999961853027</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">24</value>
+            </style>
+            <lit>Across a crowded room, the hero sees the beautiful maiden and falls immediately in love.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0.501961"/>
+              </value>
+              <value key="font-size">17</value>
+              <value key="font-weight">9</value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-minimum-line-height">21</value>
+              <value key="paragraph-spacing">3.359999895095825</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+            </style>
+            <lit>Discussion</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>The objective of the adventure is often generically referred to as the &apos;treasure&apos;, even though this treasure may be of non-physical or non-pecuniary nature, such as a freed captive or acquired knowledge.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>The initial situation of normality is useful in creating a </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/principles/bonding.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>bond</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit> between the audience and the hero. If the hero is normal, then the audience can easily </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/principles/association.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>associate</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit> with the hero, joining their </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/explanations/identity/identity.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>identities</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>together in vicarious comradeship.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>The appearance of the call provides the first step into </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/principles/tension.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>tension</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>. Will the hero accept the call? Would you? The audience wills the hero to accept and do what is right and </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/explanations/values/values_morals_ethics.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>moral</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>. It also </lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0.501961" g="0" b="0.501961"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="link">http://changingminds.org/explanations/emotions/fear.htm</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>fears</lit>
+          </run>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit> the hero, in what danger may be encountered if the challenge is accepted.</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>The call may be a gradual realization or it may be from a cataclysmic event, such as the destruction of ones home (typically by the villain).</lit>
+          </run>
+        </p>
+        <p>
+          <run>
+            <style>
+              <value key="font-family">Verdana</value>
+              <value key="font-fill">
+                <color space="drgb" r="0" g="0" b="0"/>
+              </value>
+              <value key="kerning-adjust">0</value>
+              <value key="paragraph-base-writing-direction">left-to-right</value>
+              <value key="paragraph-first-line-head-indent">2.400000095367433</value>
+              <value key="paragraph-head-indent">2.400000095367433</value>
+              <value key="paragraph-minimum-line-height">16.79999923706055</value>
+              <value key="paragraph-spacing">6</value>
+              <value key="paragraph-tab-stop-interval">36</value>
+              <value key="paragraph-tail-indent">2.400000095367433</value>
+            </style>
+            <lit>The call may well be refused until internal pressures are powerful enough. Adventures are ok in books but often frightening and possibly deadly in experience. They thus may need some encouragement, such as worsening conditions or further attacks by the villain. A mentor may help this along, urging the hero to respond.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t43">
+    <title>The Ultimate Boon</title>
+    <type>milestone</type>
+  </task>
+  <task id="t44">
+    <title>Apotheosis</title>
+    <type>milestone</type>
+  </task>
+  <task id="t45">
+    <title>Atonement with the Father</title>
+    <type>milestone</type>
+  </task>
+  <task id="t46">
+    <title>Woman as Temptress</title>
+    <type>milestone</type>
+  </task>
+  <task id="t47">
+    <title>The Meeting with the Goddess</title>
+    <type>milestone</type>
+  </task>
+  <task id="t48">
+    <title>Road of Trials</title>
+    <type>milestone</type>
+  </task>
+  <task id="t50">
+    <title>Freedom to Live</title>
+    <type>milestone</type>
+  </task>
+  <task id="t51">
+    <title>Master of the Two Worlds</title>
+    <type>milestone</type>
+  </task>
+  <task id="t52">
+    <title>Crossing of the Return Threshold</title>
+    <type>milestone</type>
+  </task>
+  <task id="t53">
+    <title>Rescue From Without</title>
+    <type>milestone</type>
+  </task>
+  <task id="t54">
+    <title>Magic Flight</title>
+    <type>milestone</type>
+  </task>
+  <task id="t55">
+    <title>Refusal of the Return</title>
+    <type>milestone</type>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
