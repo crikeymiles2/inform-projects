@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="crikeymiles" date="2016-07-09T16:55:01.919Z" timestamp="2016-07-09T16:55:01.919Z">
+    <change idref="t1" from="t-1" from-position="0" resolved="yes">
+      <change idref="t1" attribute="title" type="string" to="Task 1"/>
+    </change>
+    <change idref="t14" to="t-1" to-position="0" resolved="yes">
+      <change idref="t14" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t14" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t14" attribute="title" type="string" to="ACT 1"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="1" resolved="yes">
+      <change idref="t4" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t4" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t4" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t4" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t4" attribute="title" type="string" to="HERO saves planet from BAY GUYS"/>
+    </change>
+    <change idref="t9" to="t14" to-position="0" resolved="yes">
+      <change idref="t9" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t9" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t9" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t9" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t9" attribute="title" type="string" to="HERO is scavenging in the RUINS"/>
+    </change>
+    <change idref="t10" to="t14" to-position="1" resolved="yes">
+      <change idref="t10" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t10" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t10" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t10" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t10" attribute="title" type="string" to="HERO finds the OBJECT"/>
+    </change>
+    <change idref="t12" to="t14" to-position="2" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t12" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t12" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t12" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t12" attribute="title" type="string" to="HERO returns to TOWN, with the OBJECT"/>
+    </change>
+    <change idref="t15" to="t14" to-position="3" resolved="yes">
+      <change idref="t15" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t15" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t15" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t15" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t15" attribute="title" type="string" to="HERO attempts to sell the OBJECT"/>
+    </change>
+    <change idref="t16" to="t14" to-position="4" resolved="yes">
+      <change idref="t16" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t16" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t16" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t16" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t16" attribute="title" type="string" to="OBJECT is stolen from the HERO by a BAY GUY MINION"/>
+    </change>
+    <change idref="t17" to="t14" to-position="5" resolved="yes">
+      <change idref="t17" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t17" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t17" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t17" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t17" attribute="title" type="string" to="HERO chases MINION"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T16:56:52.085Z" timestamp="2016-07-09T16:56:52.085Z">
+    <change idref="t26" to="t-1" to-position="1" resolved="yes">
+      <change idref="t26" attribute="styleDict" type="dict" to="{
+    &quot;font-weight&quot; = 9;
+}"/>
+      <change idref="t26" attribute="title" type="string" to="ACT 2:"/>
+    </change>
+    <change idref="t23" to="t-1" to-position="2" resolved="yes">
+      <change idref="t23" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t23" attribute="styleDict" type="dict" to="{
+    &quot;font-weight&quot; = 9;
+}"/>
+      <change idref="t23" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t23" attribute="title" type="string" to="ACT 3:"/>
+    </change>
+    <change idref="t14" attribute="styleDict" type="dict" to="{
+    &quot;font-weight&quot; = 9;
+}" resolved="yes"/>
+    <change idref="t4" from="t-1" from-position="1" to="t23" to-position="0" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:11:04.014Z" timestamp="2016-07-09T17:11:04.014Z">
+    <change idref="t27" to="t14" to-position="6" resolved="yes">
+      <change idref="t27" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t27" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t27" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t27" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t27" attribute="title" type="string" to="MINION leads HERO to VILLAIN&apos;S HIDE-OUT, where HERO gains an inkling of the EVIL PLAN"/>
+    </change>
+    <change idref="t29" to="t14" to-position="7" resolved="yes">
+      <change idref="t29" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t29" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t29" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t29" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t29" attribute="title" type="string" to="The HERO&apos;S COMPANION urges the HERO to follow the VILLAIN and learn more"/>
+    </change>
+    <change idref="t28" to="t14" to-position="8" resolved="yes">
+      <change idref="t28" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t28" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t28" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t28" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t28" attribute="title" type="string" to="HERO refuses the call, choosing to return to the HERO&apos;S HOVEL"/>
+    </change>
+    <change idref="t31" to="t14" to-position="9" resolved="yes">
+      <change idref="t31" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t31" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t31" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t31" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t31" attribute="title" type="string" to="The HERO returns to the HERO&apos;S HOVEL to find that it has been turned inside out."/>
+    </change>
+    <change idref="t32" to="t14" to-position="10" resolved="yes">
+      <change idref="t32" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t32" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t32" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t32" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t32" attribute="title" type="string" to="The HERO catches"/>
+    </change>
+    <change idref="t15" attribute="title" type="string" from="HERO attempts to sell the OBJECT" to="HERO unsuccessful attempts to sell the OBJECT, but word gets around about it" resolved="yes"/>
+    <change idref="t16" attribute="title" type="string" from="OBJECT is stolen from the HERO by a BAY GUY MINION" to="During another attempt to sell it, the OBJECT is stolen from the HERO by a VILLAIN&apos;S MINION" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="crikeymiles" date="2016-07-09T17:13:34.970Z" timestamp="2016-07-09T17:13:34.970Z">
+    <change idref="t35" to="t14" to-position="11" resolved="yes">
+      <change idref="t35" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t35" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t35" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t35" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t35" attribute="title" type="string" to="The MENTOR explains that the OBJECT is critical in the VILLAIN&apos;S EVIL PLAN, and asks if the HERO knows where to find more OBJECTS"/>
+    </change>
+    <change idref="t31" attribute="title" type="string" from="The HERO returns to the HERO&apos;S HOVEL to find that it has been turned inside out." to="The HERO returns to the HERO&apos;S HOVEL to find that it has been turned inside out" resolved="yes"/>
+    <change idref="t32" attribute="title" type="string" from="The HERO catches" to="The HERO catches the MENTOR rummaging through their things and challenges her" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="crikeymiles" date="2016-07-09T16:55:01.919Z" timestamp="2016-07-09T16:55:01.919Z">
+    <change idref="r2" to="r-1" to-position="1" resolved="yes">
+      <change idref="r2" attribute="name" type="string" to="Hero"/>
+    </change>
+  </resource-change-set>
+  <metadata-change-set user="crikeymiles" date="2016-07-09T16:44:37.160Z" timestamp="2016-07-09T16:44:37.160Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-07-08T23:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="crikeymiles" date="2016-07-09T16:55:01.918Z" timestamp="2016-07-09T16:55:01.918Z">
+    <change idref="m1" attribute="baseStyle" type="dict" to="{
+    &quot;font-family&quot; = &quot;Hoefler Text&quot;;
+    &quot;font-size&quot; = 24;
+}" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
