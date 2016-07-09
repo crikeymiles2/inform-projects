@@ -1,0 +1,780 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1016">
+    <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">The Crux of the Biscuit</command>
+        <result xml:space="preserve">
+
+
+
+The Crux of the Biscuit
+An Interactive Fiction by Mike Hutchinson
+Release 1 / Serial number 131003 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Sitting Room
+A gentle prod wakes you from your idle daydreaming.  There is a warming glow against your back, and you hear the crackle and snap of a slightly damn log burning in the grate behind you.  In front of your are two large unwashed feet.
+
+One of them prods you a second time:   "Go on boy, get me slippers.  Get grandpa's slippers.  Off you go.  Bring them here.  Who's a good boy.  Get grandpa's slippers."
+
+You can see an armchair (in which is an Old Man) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+            <child nodeId="node-1060"></child>
+            <child nodeId="node-1062"></child>
+            <child nodeId="node-1043"></child>
+            <child nodeId="node-1056"></child>
+            <child nodeId="node-1048"></child>
+            <child nodeId="node-1017"></child>
+            <child nodeId="node-1031"></child>
+            <child nodeId="node-1093"></child>
+        </children>
+    </item>
+    <item nodeId="node-1093">
+        <command xml:space="preserve">x old man</command>
+        <result xml:space="preserve">You see nothing special about the Old Man.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1094"></child>
+        </children>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">x feet</command>
+        <result xml:space="preserve">You see nothing special about the Old man's feet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">talk old man</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">talk to the old man</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">lick old man</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+        </children>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">look old man</command>
+        <result xml:space="preserve">You see nothing special about the Old Man.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">take feet</command>
+        <result xml:space="preserve">That seems to be a part of the Old Man.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">take old man</command>
+        <result xml:space="preserve">I don't suppose the Old Man would care for that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1019"></child>
+        </children>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">take armchair</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1020"></child>
+        </children>
+    </item>
+    <item nodeId="node-1020">
+        <command xml:space="preserve">smell feet</command>
+        <result xml:space="preserve">The feet smell awful.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">Kitchen
+This is the kitchen.  The bin smells great.  The damp patch on the floor below the sink less so. The sitting room is North.  West is an external door to the garden.
+
+You can see a bin (closed), a sink and a cupboard (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+        </children>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">Sitting Room
+There is a gentle snoring.
+
+You can see an armchair (in which is an Old Man) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1023"></child>
+        </children>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">Kitchen
+This is the kitchen.   The sitting room is North.  West is an external door to the garden.
+
+You can see a bin (closed), a sink and a cupboard (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1024"></child>
+        </children>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">look bin</command>
+        <result xml:space="preserve">It is a small bin with a pedal action that you long ago puzzled out.  It may have been silver once, but the numberless tea stains have left it resembling the ruddy bronze plate mail of some pertified dwarf.
+There is a slipper on the top.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1025"></child>
+        </children>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">open bin</command>
+        <result xml:space="preserve">The bin is nearly full.  On top of a newspaper splattered with mashed potato remnances is a filthy red tarten slipper.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1026"></child>
+        </children>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">look bin</command>
+        <result xml:space="preserve">A browning pear core settles against a Fray Bentos pie tin.  It smells heavenly.
+There is a slipper on the top.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1027"></child>
+        </children>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">get slipper</command>
+        <result xml:space="preserve">(You grab the slipper in your mouth). The bin shuts with a PING!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1028"></child>
+        </children>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">look slipper</command>
+        <result xml:space="preserve">An unspeakable object.  The front encrusted with mud from the flowerbeds outside; the back torn and flapping from teeth marks; the inside a grim dungeon of talc residue and foot slime.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Kitchen
+This is the kitchen.   The sitting room is North.  West is an external door to the garden.
+
+You can see a bin (closed), a sink and a cupboard (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">open bin</command>
+        <result xml:space="preserve">The bin is nearly full.  On top of a newspaper splattered with mashed potato remnances is a Fray Bentos pie tin.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">Kitchen
+This is the kitchen.  The bin smells great.  The damp patch on the floor below the sink less so. The sitting room is North.  West is an external door to the garden.
+
+You can see a bin (closed), a sink and a cupboard (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1053"></child>
+            <child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">open bin</command>
+        <result xml:space="preserve">The bin is nearly full.  On top of a newspaper splattered with mashed potato remnances is a filthy red tarten slipper.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">get slipper</command>
+        <result xml:space="preserve">(You grab the slipper in your mouth). The bin shuts with a PING!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1051"></child>
+        </children>
+    </item>
+    <item nodeId="node-1051">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">Sitting Room
+There is a gentle snoring.
+
+You can see an armchair (in which is an Old Man) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+        </children>
+    </item>
+    <item nodeId="node-1052">
+        <command xml:space="preserve">give slipper to old man</command>
+        <result xml:space="preserve">*** You have won ***
+
+
+In that game you scored 0 out of a possible 0, in 5 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1053">
+        <command xml:space="preserve">look sink</command>
+        <result xml:space="preserve">There is a cupboard under the sink.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1054"></child>
+        </children>
+    </item>
+    <item nodeId="node-1054">
+        <command xml:space="preserve">look cupboard</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1055"></child>
+        </children>
+    </item>
+    <item nodeId="node-1055">
+        <command xml:space="preserve">open cupboard</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1056">
+        <command xml:space="preserve">look old mand</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1057"></child>
+        </children>
+    </item>
+    <item nodeId="node-1057">
+        <command xml:space="preserve">look old man</command>
+        <result xml:space="preserve">His face is a tapestry of wrinkles.  The skin looks like that of the apple you found in next door's bin yesterday.  From this angle, he is mostly feet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1058"></child>
+        </children>
+    </item>
+    <item nodeId="node-1058">
+        <command xml:space="preserve">look feet</command>
+        <result xml:space="preserve">The skin in loose and hollow.  There are pieces of rusett fluff stuck to the bottom of the toes, and wedged under the toenails, which are discoloured and cracked.  Nevertheless, you are a great admirer of these feet, and of the gurgling face that even now looms closer and closer.
+
+ "Shoo boy! GET... SLIP...PERS..." 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1059"></child>
+        </children>
+    </item>
+    <item nodeId="node-1059">
+        <command xml:space="preserve">exits</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">look old man</command>
+        <result xml:space="preserve">His face is a tapestry of wrinkles.  The skin looks like that of the apple you found in next door's bin yesterday.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+            <child nodeId="node-1044"></child>
+            <child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">look old mand's feet</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">look old man's feet</command>
+        <result xml:space="preserve">You see nothing special about the Old man's feet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">look old man's feet</command>
+        <result xml:space="preserve">The skin in loose and hollow.  There are pieces of rusett fluff stuck to the bottom of the toes, and wedged under the toenails, which are discoloured and cracked.  Nevertheless, you are a great admirer of these feet, and of the gurgling face that even now looms closer and closer.
+
+ "Shoo boy! GET... SLIP...PERS..." 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">look feet</command>
+        <result xml:space="preserve">The skin in loose and hollow.  There are pieces of rusett fluff stuck to the bottom of the toes, and wedged under the toenails, which are discoloured and cracked.  Nevertheless, you are a great admirer of these feet, and of the gurgling face that even now looms closer and closer.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1062">
+        <command xml:space="preserve">look feet</command>
+        <result xml:space="preserve">The skin in loose and hollow.  There are pieces of rusett fluff stuck to the bottom of the toes, and wedged under the toenails, which are discoloured and cracked.  Nevertheless, you are a great admirer of these feet, and of the gurgling face that even now looms closer and closer.
+
+
+"Shoo boy! GET... SLIP...PERS..."
+
+
+The door to the kitchen is South of you.  A staircase leading to the first floor lies to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1063"></child>
+            <child nodeId="node-1069"></child>
+            <child nodeId="node-1077"></child>
+        </children>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">
+Kitchen
+This is the kitchen.  The bin smells great.  The damp patch on the floor below the sink less so. The sitting room is North.  West is an external door to the garden.
+
+You can see a bin (closed), a sink and a cupboard (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1078"></child>
+        </children>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">open bin</command>
+        <result xml:space="preserve">The bin is nearly full.  On top of a newspaper splattered with mashed potato remnances is a filthy red tarten slipper.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">get bin</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1080"></child>
+        </children>
+    </item>
+    <item nodeId="node-1080">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a bin (open)
+    a slipper
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1081"></child>
+        </children>
+    </item>
+    <item nodeId="node-1081">
+        <command xml:space="preserve">drop bin</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1083"></child>
+        </children>
+    </item>
+    <item nodeId="node-1083">
+        <command xml:space="preserve">open bin</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1084"></child>
+        </children>
+    </item>
+    <item nodeId="node-1084">
+        <command xml:space="preserve">get slippers</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1085"></child>
+        </children>
+    </item>
+    <item nodeId="node-1085">
+        <command xml:space="preserve">get slipper</command>
+        <result xml:space="preserve">(You grab the slipper in your mouth). The bin shuts with a PING!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1086"></child>
+        </children>
+    </item>
+    <item nodeId="node-1086">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Kitchen
+This is the kitchen.   The sitting room is North.  West is an external door to the garden.
+
+You can see a bin (closed), a sink and a cupboard (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+        </children>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">look sink</command>
+        <result xml:space="preserve">There is a cupboard under the sink.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1088"></child>
+        </children>
+    </item>
+    <item nodeId="node-1088">
+        <command xml:space="preserve">open cupboard</command>
+        <result xml:space="preserve">You open the cupboard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1089"></child>
+        </children>
+    </item>
+    <item nodeId="node-1089">
+        <command xml:space="preserve">look cupboard</command>
+        <result xml:space="preserve">The cupboard is empty.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1090"></child>
+        </children>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">look cupboard</command>
+        <result xml:space="preserve">The cupboard is empty.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1091"></child>
+        </children>
+    </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">look cupboard</command>
+        <result xml:space="preserve">The cupboard is empty.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1092"></child>
+        </children>
+    </item>
+    <item nodeId="node-1092">
+        <command xml:space="preserve">x cupboard</command>
+        <result xml:space="preserve">The cupboard is empty.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1069">
+        <command xml:space="preserve">easty</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1070"></child>
+        </children>
+    </item>
+    <item nodeId="node-1070">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">Those stairs look like a lot of effort...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1071"></child>
+        </children>
+    </item>
+    <item nodeId="node-1071">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">Kitchen
+This is the kitchen.  The bin smells great.  The damp patch on the floor below the sink less so. The sitting room is North.  West is an external door to the garden.
+
+You can see a bin (closed), a sink and a cupboard (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1072"></child>
+        </children>
+    </item>
+    <item nodeId="node-1072">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1073"></child>
+        </children>
+    </item>
+    <item nodeId="node-1073">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">The kitchen door is closed, and locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1074"></child>
+        </children>
+    </item>
+    <item nodeId="node-1074">
+        <command xml:space="preserve">open cupboard</command>
+        <result xml:space="preserve">You open the cupboard.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1075"></child>
+        </children>
+    </item>
+    <item nodeId="node-1075">
+        <command xml:space="preserve">look cupboard</command>
+        <result xml:space="preserve">The cupboard is empty.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1076"></child>
+        </children>
+    </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Kitchen
+This is the kitchen.   The sitting room is North.  West is an external door to the garden.
+
+You can see a bin (closed), a sink and a cupboard (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1064"></child>
+        </children>
+    </item>
+    <item nodeId="node-1064">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">Kitchen
+This is the kitchen.  The bin smells great.  The damp patch on the floor below the sink less so.
+
+You can see a bin and a sink here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1065"></child>
+        </children>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">look bin</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1066"></child>
+        </children>
+    </item>
+    <item nodeId="node-1066">
+        <command xml:space="preserve">look sink</command>
+        <result xml:space="preserve">There is a cupboard under the sink.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1067"></child>
+        </children>
+    </item>
+    <item nodeId="node-1067">
+        <command xml:space="preserve">look cupboard under sink</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1068"></child>
+        </children>
+    </item>
+    <item nodeId="node-1068">
+        <command xml:space="preserve">look cupboard</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1060">
+        <command xml:space="preserve">look armchiar</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1061"></child>
+        </children>
+    </item>
+    <item nodeId="node-1061">
+        <command xml:space="preserve">look armchair</command>
+        <result xml:space="preserve">You see nothing special about the armchair.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Sitting Room
+There is a gentle snoring.
+
+You can see an armchair (in which is an Old Man) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+            <child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">look old man</command>
+        <result xml:space="preserve">His face is a tapestry of wrinkles.  The skin looks like that of the apple you found in next door's bin yesterday.  From this angle, he is mostly feet.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1040"></child>
+        </children>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">look feet</command>
+        <result xml:space="preserve">The skin in loose and hollow.  There are pieces of rusett fluff stuck to the bottom of the toes, and wedged under the toenails, which are discoloured and cracked.  Nevertheless, you are a great admirer of these feet, and of the gurgling face that even now looms closer and closer.
+
+
+"Shoo boy! GET... SLIP...PERS..."
+
+
+The door to the kitchen is South of you.  A staircase leading to the first floor lies to the East.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">
+Kitchen
+This is the kitchen.  The bin smells great.  The damp patch on the floor below the sink less so. The sitting room is North.  West is an external door to the garden.
+
+You can see a bin (closed), a sink and a cupboard (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">The kitchen door is closed, and locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">go</command>
+        <result xml:space="preserve">You'll have to say which compass direction to go in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">Kitchen
+This is the kitchen.
+
+The bin smells great.
+
+The damp patch on the floor below the sink less so.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">look bin</command>
+        <result xml:space="preserve">You see nothing special about the bin.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>

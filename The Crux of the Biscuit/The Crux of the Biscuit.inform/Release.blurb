@@ -1,0 +1,57 @@
+! Blurb file created by Inform build 6M62
+
+status "/Applications/Inform/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/crikeymiles/Dropbox/Games/Others/Misc/INFORM 7 Projects/The Crux of the Biscuit.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/crikeymiles/Dropbox/Games/Others/Misc/INFORM 7 Projects/The Crux of the Biscuit.inform"
+release to "/Users/crikeymiles/Dropbox/Games/Others/Misc/INFORM 7 Projects/The Crux of the Biscuit.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "The Crux of the Biscuit.gblorb"
+storyfile "/Users/crikeymiles/Dropbox/Games/Others/Misc/INFORM 7 Projects/The Crux of the Biscuit.inform/Build/output.ulx" include
+ifiction "/Users/crikeymiles/Dropbox/Games/Others/Misc/INFORM 7 Projects/The Crux of the Biscuit.inform/Metadata.iFiction" include
+cover "/Applications/Inform/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+picture 1 "/Applications/Inform/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+release file "/Applications/Inform/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
+release file "/Applications/Inform/Inform.app/Contents/Resources/Internal/Miscellany/Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "7F5BE2D0-6947-48B2-9163-E07787C60478"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2016"
+placeholder [TITLE] = "The Crux of the Biscuit"
+placeholder [AUTHOR] = "Mike Hutchinson"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "The Crux of the Biscuit.gblorb.js"
+template path "/Users/crikeymiles/Dropbox/Games/Others/Misc/INFORM 7 Projects/The Crux of the Biscuit.materials/Templates"
+template path "/Users/crikeymiles/Library/Inform/Templates"
+template path "/Applications/Inform/Inform.app/Contents/Resources/Internal/Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "/Users/crikeymiles/Dropbox/Games/Others/Misc/INFORM 7 Projects/The Crux of the Biscuit.inform/Build/output.ulx" to "/Users/crikeymiles/Dropbox/Games/Others/Misc/INFORM 7 Projects/The Crux of the Biscuit.materials/Release/interpreter/The Crux of the Biscuit.gblorb.js"
+
+! Website instructions
+
+template path "/Users/crikeymiles/Dropbox/Games/Others/Misc/INFORM 7 Projects/The Crux of the Biscuit.materials/Templates"
+template path "/Users/crikeymiles/Library/Inform/Templates"
+template path "/Applications/Inform/Inform.app/Contents/Resources/Internal/Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line63"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
